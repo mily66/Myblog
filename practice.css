@@ -1,0 +1,23 @@
+{
+background-color:yellow;
+
+
+img{
+  height:100px;
+  width:100px;
+}
+p{
+  color:red;
+}
+h1,h3,h4,h5,h6{
+  coloe:blue;
+}
+h2{
+  color:orange;
+}
+UL{
+  list-style-type:square;
+}
+ol{
+  list-style-type: upper-roman;
+}
