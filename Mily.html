@@ -1,19 +1,26 @@
 <!DOCTYPE html>
 <html>
-
  <head>
-<link type="text/css" rel="stylesheet" href="practicess.css">
+<link type="text/css" rel="stylesheet" href="practicess.css"></link>
+<script src="Mily.js"></script>
 </head>
 <body>
 <center>
   <h1 id="top"> Welcome to my Blog!</h1>
 </center>
-<ul>
-  <li><a href="Aboutme.html">About Me</a></li>
-  <li><a href="Friends.html">Friends</a></li>
-  <li><a href="Family.html">Family</a></li>
-  <li><a href="Pictures.html">Pictures</a></li>
-</ul>
+
+
+<div id="mySidenav" class="sidenav">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+  <a href="Aboutme.html">Aboutme</a>
+  <a href="Family.html">Family</a>
+  <a href="Friends.html">Friends</a>
+  <a href="Pictures.html">Pictures</a>
+</div>
+
+<span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776;open</span>
+
+
 <center>
   <table>
     <tbody>
@@ -72,7 +79,6 @@
     </tbody>
 </table>
 </center>
-
 </body>
 </html>
 
